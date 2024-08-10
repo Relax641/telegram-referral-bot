@@ -9,12 +9,12 @@ pip install -r requirements.txt
 ```
 ### 2. Open the .env file and edit the data according to your needs
 Description for fileds
- - **BOT_NAME** - The public name of the bot without the @ symbol (e.g., example_random_bot)
- - **COUNT** - The quantity of accounts to be used
- - **REFER_ID** - Your referral ID obtained from the bot (e.g., t.me/example_random_bot?start=12345, ONLY set 12345)
- - **CHANNEL_NAME** - The username of the channel that must be joined [OPTIONAL]
- - **DELAY_MIN** - The minimum delay in seconds between each account's operation
- - **DELAY_MAX** - The maximum delay in seconds between each account's operation
+ - **@TopKonsBot** - The public name of the bot without the @ symbol (e.g., example_random_bot)
+ - **52** - The quantity of accounts to be used
+ - **Top5364** - Your referral ID obtained from the bot (e.g., t.me/example_random_bot?start=12345, ONLY set 12345)
+ - **@topkonsuz** - The username of the channel that must be joined [OPTIONAL]
+ - **23** - The minimum delay in seconds between each account's operation
+ - **35** - The maximum delay in seconds between each account's operation
 ### 2.1 If you use pyrogram string sessions, follow steps: [4](https://github.com/svtcore/telegram-referral-bot?tab=readme-ov-file#4-create-a-file-for-your-credentials-such-as-accountstxt-and-input-the-data-in-the-following-format) ,[5](https://github.com/svtcore/telegram-referral-bot?tab=readme-ov-file#5-if-you-plan-to-use-a-proxy-create-a-file-for-it-in-this-format) and [8](https://github.com/svtcore/telegram-referral-bot?tab=readme-ov-file#8-run-the-script-to-begin-inviting-accounts-using-your-referral-code)
 ### 3. Retrieve the API_ID and API_HASH for each account
  - Go to https://my.telegram.org. Log in to the site and create a new application; it will provide you with your credentials
